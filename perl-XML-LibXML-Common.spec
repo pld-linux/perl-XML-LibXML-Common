@@ -23,7 +23,7 @@ Summary(sv):	XML::LibXML::Common Perlmodul
 Summary(uk):	Модуль для Perl XML::LibXML::Common
 Summary(zh_CN):	XML::LibXML::Common Perl дё©И
 Name:		perl-XML-LibXML-Common
-Version:	0.10
+Version:	0.12
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
