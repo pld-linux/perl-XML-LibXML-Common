@@ -35,8 +35,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	libxml2 >= 2.4.8
 
 %description
+XML::LibXML::Common Perl module contains several constants and
+functions that are shared by XML::LibXML, XML::GDOME and XML::LibXSLT
+(not all done, yet).
 
 %description -l pl
+Modu³ Perla XML::LibXML::Common zawiera sta³e oraz funkcje wspólne
+dla XML::LibXML, XML::GDOME i XML::LibXSLT (nie zosta³ on jeszcze
+skoñczony).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
