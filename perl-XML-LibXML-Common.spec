@@ -14,7 +14,7 @@ Summary(fr):	Module Perl XML::LibXML::Common
 Summary(it):	Modulo di Perl XML::LibXML::Common
 Summary(ja):	XML::LibXML::Common Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	XML::LibXML::Common ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul XML::LibXML::Common
+Summary(nb):	Perlmodul XML::LibXML::Common
 Summary(pl):	Modu³ Perla XML::LibXML::Common
 Summary(pt):	Módulo de Perl XML::LibXML::Common
 Summary(pt_BR):	Módulo Perl XML::LibXML::Common
