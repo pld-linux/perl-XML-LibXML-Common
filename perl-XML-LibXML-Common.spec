@@ -24,13 +24,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::LibXML::Common
 Summary(zh_CN):	XML::LibXML::Common Perl Ä£¿é
 Name:		perl-XML-LibXML-Common
 Version:	0.12
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	libxml2-devel >= 2.4.8
 BuildRequires:	perl-devel >= 5.6.1
-BuildRequires:	rpm-perlprov >= 4.0.2-56
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	libxml2 >= 2.4.8
 
@@ -48,7 +48,8 @@ skoñczony).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %{!?_without_tests:%{__make} test}
@@ -64,10 +65,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_sitearch}/XML/LibXML
-%{perl_sitearch}/XML/LibXML/*.pm
-%dir %{perl_sitearch}/auto/XML/LibXML
-%dir %{perl_sitearch}/auto/XML/LibXML/Common
-%{perl_sitearch}/auto/XML/LibXML/Common/Common.bs
-%attr(755,root,root) %{perl_sitearch}/auto/XML/LibXML/Common/Common.so
+%dir %{perl_vendorarch}/XML/LibXML
+%{perl_vendorarch}/XML/LibXML/*.pm
+%dir %{perl_vendorarch}/auto/XML/LibXML
+%dir %{perl_vendorarch}/auto/XML/LibXML/Common
+%{perl_vendorarch}/auto/XML/LibXML/Common/Common.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/XML/LibXML/Common/Common.so
 %{_mandir}/man3/*
