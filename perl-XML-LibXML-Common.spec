@@ -6,22 +6,22 @@
 %define		pdir	XML
 %define		pnam	LibXML-Common
 Summary:	XML::LibXML::Common Perl module
-Summary(cs):	Modul XML::LibXML::Common pro Perl
-Summary(da):	Perlmodul XML::LibXML::Common
-Summary(de):	XML::LibXML::Common Perl Modul
-Summary(es):	MÛdulo de Perl XML::LibXML::Common
-Summary(fr):	Module Perl XML::LibXML::Common
-Summary(it):	Modulo di Perl XML::LibXML::Common
-Summary(ja):	XML::LibXML::Common Perl •‚•∏•Â°º•Î
-Summary(ko):	XML::LibXML::Common ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul XML::LibXML::Common
-Summary(pl):	Modu≥ Perla XML::LibXML::Common
-Summary(pt):	MÛdulo de Perl XML::LibXML::Common
-Summary(pt_BR):	MÛdulo Perl XML::LibXML::Common
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl XML::LibXML::Common
-Summary(sv):	XML::LibXML::Common Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl XML::LibXML::Common
-Summary(zh_CN):	XML::LibXML::Common Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul XML::LibXML::Common pro Perl
+Summary(da.UTF-8):   Perlmodul XML::LibXML::Common
+Summary(de.UTF-8):   XML::LibXML::Common Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl XML::LibXML::Common
+Summary(fr.UTF-8):   Module Perl XML::LibXML::Common
+Summary(it.UTF-8):   Modulo di Perl XML::LibXML::Common
+Summary(ja.UTF-8):   XML::LibXML::Common Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   XML::LibXML::Common ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul XML::LibXML::Common
+Summary(pl.UTF-8):   Modu≈Ç Perla XML::LibXML::Common
+Summary(pt.UTF-8):   M√≥dulo de Perl XML::LibXML::Common
+Summary(pt_BR.UTF-8):   M√≥dulo Perl XML::LibXML::Common
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl XML::LibXML::Common
+Summary(sv.UTF-8):   XML::LibXML::Common Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl XML::LibXML::Common
+Summary(zh_CN.UTF-8):   XML::LibXML::Common Perl Ê®°Âùó
 Name:		perl-XML-LibXML-Common
 Version:	0.13
 Release:	2
@@ -41,10 +41,10 @@ XML::LibXML::Common Perl module contains several constants and
 functions that are shared by XML::LibXML, XML::GDOME and XML::LibXSLT
 (not all done, yet).
 
-%description -l pl
-Modu≥ Perla XML::LibXML::Common zawiera sta≥e oraz funkcje wspÛlne
-dla XML::LibXML, XML::GDOME i XML::LibXSLT (nie zosta≥ on jeszcze
-skoÒczony).
+%description -l pl.UTF-8
+Modu≈Ç Perla XML::LibXML::Common zawiera sta≈Çe oraz funkcje wsp√≥lne
+dla XML::LibXML, XML::GDOME i XML::LibXSLT (nie zosta≈Ç on jeszcze
+sko≈Ñczony).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
