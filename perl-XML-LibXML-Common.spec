@@ -6,22 +6,22 @@
 %define		pdir	XML
 %define		pnam	LibXML-Common
 Summary:	XML::LibXML::Common Perl module
-Summary(cs.UTF-8):   Modul XML::LibXML::Common pro Perl
-Summary(da.UTF-8):   Perlmodul XML::LibXML::Common
-Summary(de.UTF-8):   XML::LibXML::Common Perl Modul
-Summary(es.UTF-8):   Módulo de Perl XML::LibXML::Common
-Summary(fr.UTF-8):   Module Perl XML::LibXML::Common
-Summary(it.UTF-8):   Modulo di Perl XML::LibXML::Common
-Summary(ja.UTF-8):   XML::LibXML::Common Perl モジュール
-Summary(ko.UTF-8):   XML::LibXML::Common 펄 모줄
-Summary(nb.UTF-8):   Perlmodul XML::LibXML::Common
-Summary(pl.UTF-8):   Moduł Perla XML::LibXML::Common
-Summary(pt.UTF-8):   Módulo de Perl XML::LibXML::Common
-Summary(pt_BR.UTF-8):   Módulo Perl XML::LibXML::Common
-Summary(ru.UTF-8):   Модуль для Perl XML::LibXML::Common
-Summary(sv.UTF-8):   XML::LibXML::Common Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl XML::LibXML::Common
-Summary(zh_CN.UTF-8):   XML::LibXML::Common Perl 模块
+Summary(cs.UTF-8):	Modul XML::LibXML::Common pro Perl
+Summary(da.UTF-8):	Perlmodul XML::LibXML::Common
+Summary(de.UTF-8):	XML::LibXML::Common Perl Modul
+Summary(es.UTF-8):	Módulo de Perl XML::LibXML::Common
+Summary(fr.UTF-8):	Module Perl XML::LibXML::Common
+Summary(it.UTF-8):	Modulo di Perl XML::LibXML::Common
+Summary(ja.UTF-8):	XML::LibXML::Common Perl モジュール
+Summary(ko.UTF-8):	XML::LibXML::Common 펄 모줄
+Summary(nb.UTF-8):	Perlmodul XML::LibXML::Common
+Summary(pl.UTF-8):	Moduł Perla XML::LibXML::Common
+Summary(pt.UTF-8):	Módulo de Perl XML::LibXML::Common
+Summary(pt_BR.UTF-8):	Módulo Perl XML::LibXML::Common
+Summary(ru.UTF-8):	Модуль для Perl XML::LibXML::Common
+Summary(sv.UTF-8):	XML::LibXML::Common Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl XML::LibXML::Common
+Summary(zh_CN.UTF-8):	XML::LibXML::Common Perl 模块
 Name:		perl-XML-LibXML-Common
 Version:	0.13
 Release:	2
