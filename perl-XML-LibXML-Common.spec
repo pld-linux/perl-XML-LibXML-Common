@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl XML::LibXML::Common
 Summary(zh_CN.UTF-8):	XML::LibXML::Common Perl 模块
 Name:		perl-XML-LibXML-Common
 Version:	0.13
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
