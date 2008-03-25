@@ -5,36 +5,22 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	LibXML-Common
-Summary:	XML::LibXML::Common Perl module
-Summary(cs.UTF-8):	Modul XML::LibXML::Common pro Perl
-Summary(da.UTF-8):	Perlmodul XML::LibXML::Common
-Summary(de.UTF-8):	XML::LibXML::Common Perl Modul
-Summary(es.UTF-8):	Módulo de Perl XML::LibXML::Common
-Summary(fr.UTF-8):	Module Perl XML::LibXML::Common
-Summary(it.UTF-8):	Modulo di Perl XML::LibXML::Common
-Summary(ja.UTF-8):	XML::LibXML::Common Perl モジュール
-Summary(ko.UTF-8):	XML::LibXML::Common 펄 모줄
-Summary(nb.UTF-8):	Perlmodul XML::LibXML::Common
-Summary(pl.UTF-8):	Moduł Perla XML::LibXML::Common
-Summary(pt.UTF-8):	Módulo de Perl XML::LibXML::Common
-Summary(pt_BR.UTF-8):	Módulo Perl XML::LibXML::Common
-Summary(ru.UTF-8):	Модуль для Perl XML::LibXML::Common
-Summary(sv.UTF-8):	XML::LibXML::Common Perlmodul
-Summary(uk.UTF-8):	Модуль для Perl XML::LibXML::Common
-Summary(zh_CN.UTF-8):	XML::LibXML::Common Perl 模块
+Summary:	XML::LibXML::Common - routines and constants common for XML::LibXML and XML::GDOME
+Summary(pl.UTF-8):	XML::LibXML::Common - procedury i stałe wspólne dla XML::LibXML i XML::GDOME
 Name:		perl-XML-LibXML-Common
 Version:	0.13
 Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	13b6d93f53375d15fd11922216249659
+URL:		http://search.cpan.org/dist/XML-LibXML-Common/
 BuildRequires:	libxml2-devel >= 2.4.8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	libxml2 >= 2.4.8
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 XML::LibXML::Common Perl module contains several constants and
