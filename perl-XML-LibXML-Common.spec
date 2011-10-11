@@ -9,7 +9,7 @@ Summary:	XML::LibXML::Common - routines and constants common for XML::LibXML and
 Summary(pl.UTF-8):	XML::LibXML::Common - procedury i stałe wspólne dla XML::LibXML i XML::GDOME
 Name:		perl-XML-LibXML-Common
 Version:	0.13
-Release:	6
+Release:	7
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
