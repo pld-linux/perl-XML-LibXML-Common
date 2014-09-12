@@ -60,6 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/XML/LibXML/*.pm
 %dir %{perl_vendorarch}/auto/XML/LibXML
 %dir %{perl_vendorarch}/auto/XML/LibXML/Common
-%{perl_vendorarch}/auto/XML/LibXML/Common/Common.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/XML/LibXML/Common/Common.so
 %{_mandir}/man3/*
