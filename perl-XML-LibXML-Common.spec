@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	LibXML-Common
 Summary:	XML::LibXML::Common - routines and constants common for XML::LibXML and XML::GDOME
